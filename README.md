@@ -33,7 +33,7 @@ Proiectul este impartit in module hardware si software care colaboreaza pentru a
    - Suport pentru conectarea componentelor hardware.  
 
 3. **Butoane cu display-uri montate in carcase 3D**  
-   - Fiecare buton este acoperit de un display ce afiseaza o imagine reprezentativa. Display-ul este montat intr-o carcasa printata 3D care il pozitioneaza stabil deasupra butonului. Apasarea butonului trimite o comanda catre Arduino pentru a executa functia specifica.  
+   - Fiecare buton este acoperit de un display ce afiseaza o imagine reprezentativa. Display-ul este montat intr-o carcasa printata 3D care il pozitioneaza deasupra butonului. Apasarea butonului trimite o comanda catre Arduino pentru a executa functia specifica.  
 
 4. **Conexiuni electrice**  
    - Fire pentru alimentare si comunicare intre componente.  
