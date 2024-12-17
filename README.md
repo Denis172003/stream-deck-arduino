@@ -47,8 +47,8 @@ Aceasta structura modulara permite extinderea cu butoane si functii suplimentare
 
 | #  | Name                     | Quantity | Datasheet |
 |----|--------------------------|----------|-----------|
-| 1  | Arduino UNO              | 1        | [link](#) |
-| 2  | OLED display 0.96        | 4/6      | [link](#) |
+| 1  | Arduino UNO              | 1        | [[link](https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf)](#) |
+| 2  | OLED display 0.96        | 4/6      | [[link](https://www.mouser.com/datasheet/2/1398/Soldered_333099-3395096.pdf?srsltid=AfmBOoqfmm8QoUOllGy6ovOIXSHeqZtmY5EUTcmRMYY_mUVvcQQgWZ8b)](#) |
 | 3  | Buttons                  | 4/6      | N/A       |
 
 ### Block diagram
