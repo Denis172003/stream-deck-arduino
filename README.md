@@ -128,6 +128,24 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ### Block diagram
 ![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
 
+---
+
+### Pin Description for Each Component
+
+#### 1. Displays (4/6 units)
+- **Pins used:** A4, A5
+- **Reason:** Data transmition pin (SDA) and Clock pin (SCL) are used to control the display segments. Each segment requires a pin to turn on or off, allowing the display of numbers.
+
+#### 2. Buttons (4/6 units)
+- **Pins used:** 13, 12, 11, 10, 9, 8
+- **Reason:** Each button has a dedicated digital pin to detect state changes (pressed or not), enabling user interaction.
+
+#### 3. Arduino Uno
+- **Pins used:** Digital pins 8 - 13, GND, and 5V
+- **Reason:** Arduino acts as the control unit, receiving input from buttons and sending output to displays. GND and 5V power external components.
+
+---
+
 ### Circuit diagram
 <img width="900" alt="Screenshot 2024-12-03 at 02 10 00" src="https://github.com/user-attachments/assets/fef912ea-c0c5-4249-b9b1-13b8d5b6e6f2">
 
