@@ -43,6 +43,78 @@ Proiectul este impartit in module hardware si software care colaboreaza pentru a
 
 Aceasta structura modulara permite extinderea cu butoane si functii suplimentare.  
 
+## Detailed Description of Hardware Functionality
+
+### 1. Modules and Components
+
+**Microcontroller**: 
+Arduino UNO serves as the central processing unit, managing inputs, outputs, and communication between connected components.
+
+**Buttons with Displays**: 
+The system includes 4 to 6 buttons, each paired with a 0.96-inch OLED display. Each display is housed in a 3D-printed case, which aligns it with the button. When pressed, the button sends a signal to the Arduino, which processes the action and updates the display, if required.
+
+**OLED Displays**: 
+4 to 6 0.96-inch OLED displays are connected to the Arduino using the I2C communication protocol. Each display shows a unique symbol or text that represents the associated button’s function.
+
+**Breadboards**: 
+Used to interconnect components without soldering. This setup allows for easy testing and adjustments.
+
+**Electrical Connections**: 
+Standard jumper wires are used to establish communication and power connections between components.
+
+### 2. Interfaces and Communication
+
+**Button-to-Microcontroller Interface**: 
+Each button is connected to a digital input pin on the Arduino. The press of a button changes the signal state from HIGH to LOW, triggering an interrupt or a polling mechanism in the Arduino firmware.
+
+**Display-to-Microcontroller Interface**: 
+The OLED displays communicate with the Arduino through the I2C protocol. The Arduino acts as the master, while the displays function as slaves. Each display has a unique address to prevent conflicts.
+
+### 3. Power Supply and Energy Consumption
+
+**Power Source**: 
+The system can be powered via USB (5V) or through an external power supply (7-12V) connected to the Arduino’s barrel jack.
+
+**Energy Consumption**:
+- **Arduino UNO**: Consumes approximately 50mA during standard operation.
+- **OLED Displays**: Each display consumes approximately 20-30mA.
+- **Buttons**: Minimal power consumption as they act as simple switches with negligible current draw.
+
+**Total Consumption**: 
+Assuming the use of 6 OLED displays, the total power consumption is estimated as:
+- **Arduino**: 50mA
+- **6 OLED Displays**: 6 × 30mA = 180mA
+- **Buttons**: Negligible
+
+**Total Current Draw**: 
+50mA + 180mA = **230mA**
+
+Given these values, a USB power source providing 500mA is sufficient to power the system.
+
+### 4. Processing and Computation
+
+**Input Handling**: 
+The Arduino constantly checks for button presses using polling or interrupt-based methods.
+
+**Command Processing**: 
+When a button press is detected, the Arduino determines which button was pressed, executes the corresponding function (like launching a program on a connected PC), and updates the associated OLED display.
+
+**Display Update**: 
+The I2C communication is used to send instructions to the OLED displays, updating their content. This update may involve clearing the screen and redrawing a new icon or message.
+
+### 5. System Expansion
+
+**Scalability**: 
+The modular design allows for the easy addition of more buttons and displays.
+
+**Flexibility**: 
+The use of breadboards facilitates quick reconfigurations and testing.
+
+**Modifiability**: 
+New functions can be assigned to buttons through simple firmware updates on the Arduino.
+
+
+
 # Bill of Material
 
 | #  | Name                     | Quantity | Datasheet |
