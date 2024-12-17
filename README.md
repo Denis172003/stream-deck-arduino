@@ -151,3 +151,8 @@ New functions can be assigned to buttons through simple firmware updates on the 
 
 https://wokwi.com/projects/416206453525866497
 
+![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
+
+![image](https://github.com/user-attachments/assets/e5191c50-b7bf-4bad-8aea-cfa9910f8ca6)
+
+
