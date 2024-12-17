@@ -43,6 +43,14 @@ Proiectul este impartit in module hardware si software care colaboreaza pentru a
 
 Aceasta structura modulara permite extinderea cu butoane si functii suplimentare.  
 
+# Bill of Material
+
+| #  | Name                     | Quantity | Datasheet |
+|----|--------------------------|----------|-----------|
+| 1  | Arduino UNO              | 1        | [link](#) |
+| 2  | OLED display 0.96        | 4/6      | [link](#) |
+| 3  | Buttons                  | 4/6      | N/A       |
+
 ### Block diagram
 ![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
 
