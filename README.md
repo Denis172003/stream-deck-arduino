@@ -43,6 +43,10 @@ Proiectul este impartit in module hardware si software care colaboreaza pentru a
 
 Aceasta structura modulara permite extinderea cu butoane si functii suplimentare.  
 
+###Block diagram
+![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
+
+###Circuit diagram
 <img width="900" alt="Screenshot 2024-12-03 at 02 10 00" src="https://github.com/user-attachments/assets/fef912ea-c0c5-4249-b9b1-13b8d5b6e6f2">
 
 https://wokwi.com/projects/416206453525866497
