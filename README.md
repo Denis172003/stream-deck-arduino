@@ -1,47 +1,49 @@
-# Stream Deck cu Arduino Uno
+# Stream Deck with Arduino Uno
 
-## Introducere
+## Introduction
 
-**Nume proiect**: Stream Deck
+**Project Name**: Stream Deck
 
-Acest proiect se bazeaza pe dezvoltarea unui stream deck personalizat utilizand doua breadboard-uri, 4/6 display-uri cu carcase printate 3D, 4/6 butoane pentru fiecare display si un Arduino Uno.  
+This project is based on the development of a custom stream deck using two breadboards, 4/6 displays with 3D-printed enclosures, 4/6 buttons for each display, and an Arduino Uno.  
 
-### Ce face?  
-Dispozitivul permite utilizatorului sa interactioneze rapid cu diverse aplicatii sau functii prin apasarea unor butoane. Fiecare display, montat pe un buton, afiseaza o imagine reprezentativa pentru functia atribuita, iar apasarea sa deschide aplicatia sau executa comanda configurata (de exemplu, un buton cu imaginea Google Meet deschide aplicatia corespunzatoare).  
+### What does it do?  
+The device allows the user to quickly interact with various applications or functions by pressing buttons. Each display, mounted on a button, shows a representative image for the assigned function. Pressing it opens the corresponding application or executes the configured command (for example, a button with a Google Meet image opens the corresponding application).  
 
-### Scopul  
-Scopul proiectului este de a crea un dispozitiv accesibil si personalizabil, care sa usureze fluxul de lucru al utilizatorilor in activitati precum streaming, intalniri virtuale sau alte procese zilnice.  
+### Purpose  
+The purpose of the project is to create an accessible and customizable device that simplifies users' workflow for activities such as streaming, virtual meetings, or other daily processes.  
 
-### Ideea de la care am pornit  
-Mi-am dorit o solutie alternativa la stream deck-urile comerciale, care sa fie mai accesibila, utilizand componente disponibile si usor de integrat.  
+### Initial Idea  
+I wanted an alternative solution to commercial stream decks that would be more accessible, using available and easy-to-integrate components.  
 
-### De ce este util?  
-Acest proiect automatizeaza diverse procese si creste eficienta utilizatorului, permitand acces rapid la functii diferite. Este usor de utilizat, la indemana si economiseste timp, facand interactiunea cu calculatorul mai rapida si mai intuitiva. Prin realizarea acestuia, am invatat mai multe despre electronica, programare si design 3D.   
+### Why is it useful?  
+This project automates various processes and increases user efficiency, allowing quick access to different functions. It is easy to use, convenient, and time-saving, making interaction with the computer faster and more intuitive. By creating this project, I have learned more about electronics, programming, and 3D design.  
 
 ---
 
-## Descriere generala
+## General Description
 
-Proiectul este impartit in module hardware si software care colaboreaza pentru a realiza functionalitatea dorita.  
+The project is divided into hardware and software modules that work together to achieve the desired functionality.  
 
-### Schema bloc
+### Block Diagram
 
 1. **Arduino Uno**  
-   - Controlerul principal care interpreteaza comenzile de la butoane si controleaza display-urile.  
+   - The main controller that interprets button commands and controls the displays.  
 
-2. **Breadboard-uri**  
-   - Suport pentru conectarea componentelor hardware.  
+2. **Breadboards**  
+   - Support for connecting hardware components.  
 
-3. **Butoane cu display-uri montate in carcase 3D**  
-   - Fiecare buton este acoperit de un display ce afiseaza o imagine reprezentativa. Display-ul este montat intr-o carcasa printata 3D care il pozitioneaza deasupra butonului. Apasarea butonului trimite o comanda catre Arduino pentru a executa functia specifica.  
+3. **Buttons with displays mounted in 3D-printed enclosures**  
+   - Each button is covered by a display that shows a representative image. The display is mounted in a 3D-printed enclosure that positions it above the button. Pressing the button sends a command to the Arduino to execute the specified function.  
 
-4. **Conexiuni electrice**  
-   - Fire pentru alimentare si comunicare intre componente.  
+4. **Electrical Connections**  
+   - Wires for power and communication between components.  
 
-### Interactiunea dintre module  
-- La apasarea unui buton, semnalul este transmis catre Arduino, care recunoaste comanda, declanseaza functia asociata (ex: deschiderea unei aplicatii pe PC) si actualizeaza display-ul, daca este necesar.  
+### Interaction Between Modules  
+- When a button is pressed, the signal is sent to the Arduino, which recognizes the command, triggers the associated function (e.g., opening an application on the PC), and updates the display if necessary.  
 
-Aceasta structura modulara permite extinderea cu butoane si functii suplimentare.  
+This modular structure allows for the addition of extra buttons and functions.  
+
+---
 
 ## Detailed Description of Hardware Functionality
 
