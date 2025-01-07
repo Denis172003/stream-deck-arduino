@@ -123,7 +123,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 |----|--------------------------|----------|-----------|
 | 1  | Arduino UNO              | 1        | [[link](https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf)]|
 | 2  | OLED display 0.96        | 6      | [[link](https://www.mouser.com/datasheet/2/1398/Soldered_333099-3395096.pdf?srsltid=AfmBOoqfmm8QoUOllGy6ovOIXSHeqZtmY5EUTcmRMYY_mUVvcQQgWZ8b)] |
-| 3  | Buttons                  | 5      | N/A       |
+| 3  | Buttons                  | 5      | [[link](https://components101.com/switches/push-button)]      |
 | 4  | Potentiometer            | 1      | N/A       |
 
 ### Block diagram
