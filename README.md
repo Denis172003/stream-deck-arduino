@@ -153,6 +153,7 @@ https://wokwi.com/projects/416206453525866497
 
 ![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
 
-![image](https://github.com/user-attachments/assets/e5191c50-b7bf-4bad-8aea-cfa9910f8ca6)
+![stream-deck-arduino](https://github.com/user-attachments/assets/e2eec8bd-83e1-48e8-b336-7503c0d497f7)
+
 
 
