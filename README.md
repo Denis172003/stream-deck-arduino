@@ -136,7 +136,9 @@ New functions can be assigned to buttons through simple firmware updates on the 
 #### 1. Displays (6 units)
 - **Pins used:** A4, A5
 - **Reason:** Data transmition pin (SDA) and Clock pin (SCL) are used to control the display segments. Each segment requires a pin to turn on or off, allowing the display of numbers.
+  
 ![image](https://github.com/user-attachments/assets/43cd9dd2-5bdf-4ee3-aec3-1672b1fa6118)
+
 #### 2. Buttons (5 units)
 - **Pins used:** 13, 12, 11, 10, 9, 8
 - **Reason:** Each button has a dedicated digital pin to detect state changes (pressed or not), enabling user interaction.
