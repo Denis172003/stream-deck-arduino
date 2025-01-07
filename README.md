@@ -160,6 +160,16 @@ New functions can be assigned to buttons through simple firmware updates on the 
 - **time**: Ensures smooth synchronization between components.
 
 ---
+**Novelty of the Project**  
+
+This project offers a budget-friendly, custom stream deck with real-time visual feedback on multiple OLED displays. Its key features include:  
+
+- **Customizable Buttons**: Users can assign specific actions to each button, such as launching applications or controlling basic system settings.  
+- **Simple, Scalable Design**: The setup can support multiple OLED screens without requiring advanced hardware, making it accessible for DIY enthusiasts.  
+- **Improved Workflow Efficiency**: By automating common tasks, it helps users save time and stay organized.  
+
+The project strikes a balance between affordability, functionality, and ease of use, making it a practical tool for personal or hobbyist applications.
+---
 
 ### Circuit diagram
 <img width="900" alt="Screenshot 2024-12-03 at 02 10 00" src="https://github.com/user-attachments/assets/fef912ea-c0c5-4249-b9b1-13b8d5b6e6f2">
