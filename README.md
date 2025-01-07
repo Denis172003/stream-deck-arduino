@@ -133,17 +133,31 @@ New functions can be assigned to buttons through simple firmware updates on the 
 
 ### Pin Description for Each Component
 
-#### 1. Displays (4/6 units)
+#### 1. Displays (6 units)
 - **Pins used:** A4, A5
 - **Reason:** Data transmition pin (SDA) and Clock pin (SCL) are used to control the display segments. Each segment requires a pin to turn on or off, allowing the display of numbers.
 
-#### 2. Buttons (4/6 units)
+#### 2. Buttons (5 units)
 - **Pins used:** 13, 12, 11, 10, 9, 8
 - **Reason:** Each button has a dedicated digital pin to detect state changes (pressed or not), enabling user interaction.
 
 #### 3. Arduino Uno
 - **Pins used:** Digital pins 8 - 13, GND, and 5V
 - **Reason:** Arduino acts as the control unit, receiving input from buttons and sending output to displays. GND and 5V power external components.
+
+---
+### Choice of Libraries:
+
+#### Arduino Libraries:
+
+- **Wire.h**: Essential for I2C communication between the Arduino, multiplexer, and OLED displays.
+- **Adafruit_GFX.h & Adafruit_SSD1306.h**: Provide easy-to-use functions for rendering graphics and text on OLED displays.
+
+####Python Libraries:
+
+- **os**: Manages application launches directly from the system.
+- **subprocess**: Executes macOS-specific commands like adjusting volume.
+- **time**: Ensures smooth synchronization between components.
 
 ---
 
