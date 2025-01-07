@@ -4,7 +4,7 @@
 
 **Project Name**: Stream Deck
 
-This project is based on the development of a custom stream deck using two breadboards, 4/6 displays with 3D-printed enclosures, 4/6 buttons for each display, and an Arduino Uno.  
+This project is based on the development of a custom stream deck using two breadboards, 6 displays with 3D-printed enclosures, 4/6 buttons for each display, and an Arduino Uno.  
 
 ### What does it do?  
 The device allows the user to quickly interact with various applications or functions by pressing buttons. Each display, mounted on a button, shows a representative image for the assigned function. Pressing it opens the corresponding application or executes the configured command (for example, a button with a Google Meet image opens the corresponding application).  
