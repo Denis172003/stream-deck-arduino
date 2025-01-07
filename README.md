@@ -154,8 +154,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ### 4. Potentiometer (1 unit)
 - **Pins used:** A0 (Analog Input), GND, and 5V
 - **Reason:** The potentiometer is used for volume adjustment. The analog input (A0) reads the varying voltage, which corresponds to the desired volume level. This value can then be processed to control the audio output.
-![image](https://github.com/user-attachments/assets/150aa283-e2a6-46ed-b009-c78d0335747a)
-
+![image-removebg-preview (2)](https://github.com/user-attachments/assets/6fdd27ff-1ae4-4d2a-b66f-d3b174c55f5d)
 ---
 ### Choice of Libraries:
 
