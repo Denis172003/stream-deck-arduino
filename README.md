@@ -133,21 +133,29 @@ New functions can be assigned to buttons through simple firmware updates on the 
 
 ### Pin Description for Each Component
 
-#### 1. Displays (6 units)
+#### 1. Arduino Uno
+- **Pins used:** Digital pins 8 - 13, GND, and 5V
+- **Reason:** Arduino acts as the control unit, receiving input from buttons and sending output to displays. GND and 5V power external components.
+  
+![image](https://github.com/user-attachments/assets/6c2fa9e6-c71b-467b-9f4f-054493a9469d)
+
+#### 2. Displays (6 units)
 - **Pins used:** A4, A5
 - **Reason:** Data transmition pin (SDA) and Clock pin (SCL) are used to control the display segments. Each segment requires a pin to turn on or off, allowing the display of numbers.
   
 ![image](https://github.com/user-attachments/assets/43cd9dd2-5bdf-4ee3-aec3-1672b1fa6118)
 
-#### 2. Buttons (5 units)
+#### 3. Buttons (5 units)
 - **Pins used:** 13, 12, 11, 10, 9, 8
 - **Reason:** Each button has a dedicated digital pin to detect state changes (pressed or not), enabling user interaction.
 ![image-removebg-preview (1)](https://github.com/user-attachments/assets/5ff1ccd8-e597-4f1d-9c15-7a5d8cdea6d0)
-#### 3. Arduino Uno
-- **Pins used:** Digital pins 8 - 13, GND, and 5V
-- **Reason:** Arduino acts as the control unit, receiving input from buttons and sending output to displays. GND and 5V power external components.
-  
-![image](https://github.com/user-attachments/assets/6c2fa9e6-c71b-467b-9f4f-054493a9469d)
+
+
+### 4. Potentiometer (1 unit)
+- **Pins used:** A0 (Analog Input), GND, and 5V
+- **Reason:** The potentiometer is used for volume adjustment. The analog input (A0) reads the varying voltage, which corresponds to the desired volume level. This value can then be processed to control the audio output.
+![image](https://github.com/user-attachments/assets/150aa283-e2a6-46ed-b009-c78d0335747a)
+
 ---
 ### Choice of Libraries:
 
