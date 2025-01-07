@@ -146,6 +146,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 #### 3. Arduino Uno
 - **Pins used:** Digital pins 8 - 13, GND, and 5V
 - **Reason:** Arduino acts as the control unit, receiving input from buttons and sending output to displays. GND and 5V power external components.
+  
 ![image](https://github.com/user-attachments/assets/6c2fa9e6-c71b-467b-9f4f-054493a9469d)
 ---
 ### Choice of Libraries:
