@@ -160,12 +160,12 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ---
 ### Choice of Libraries 📚:
 
-#### Arduino Libraries ♾:
+#### Arduino Libraries:
 
 - **Wire.h**: Essential for I2C communication between the Arduino, multiplexer, and OLED displays.
 - **Adafruit_GFX.h & Adafruit_SSD1306.h**: Provide easy-to-use functions for rendering graphics and text on OLED displays.
 
-#### Python Libraries 📚:
+#### Python Libraries:
 
 - **os**: Manages application launches directly from the system.
 - **subprocess**: Executes macOS-specific commands like adjusting volume.
