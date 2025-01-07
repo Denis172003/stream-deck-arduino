@@ -87,6 +87,7 @@ Assuming the use of 6 OLED displays, the total power consumption is estimated as
 - **Arduino**: 50mA
 - **6 OLED Displays**: 6 × 30mA = 180mA
 - **Buttons**: Negligible
+- **Potentiometer**: Negligible
 
 **Total Current Draw**: 
 50mA + 180mA = **230mA**
