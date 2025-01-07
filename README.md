@@ -158,14 +158,14 @@ New functions can be assigned to buttons through simple firmware updates on the 
 - **Reason:** The potentiometer is used for volume adjustment. The analog input (A0) reads the varying voltage, which corresponds to the desired volume level. This value can then be processed to control the audio output.
 ![image-removebg-preview (2)](https://github.com/user-attachments/assets/6fdd27ff-1ae4-4d2a-b66f-d3b174c55f5d)
 ---
-### Choice of Libraries:
+### Choice of Libraries 📚:
 
-#### Arduino Libraries:
+#### Arduino Libraries ![image](https://github.com/user-attachments/assets/a018baad-6a34-4e35-bcee-acc457b26ed7) :
 
 - **Wire.h**: Essential for I2C communication between the Arduino, multiplexer, and OLED displays.
 - **Adafruit_GFX.h & Adafruit_SSD1306.h**: Provide easy-to-use functions for rendering graphics and text on OLED displays.
 
-#### Python Libraries:
+#### Python Libraries 📚:
 
 - **os**: Manages application launches directly from the system.
 - **subprocess**: Executes macOS-specific commands like adjusting volume.
