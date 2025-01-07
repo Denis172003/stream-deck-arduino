@@ -160,7 +160,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ---
 ### Choice of Libraries 📚:
 
-#### Arduino Libraries ![image](https://github.com/user-attachments/assets/a018baad-6a34-4e35-bcee-acc457b26ed7) :
+#### Arduino Libraries ♾:
 
 - **Wire.h**: Essential for I2C communication between the Arduino, multiplexer, and OLED displays.
 - **Adafruit_GFX.h & Adafruit_SSD1306.h**: Provide easy-to-use functions for rendering graphics and text on OLED displays.
