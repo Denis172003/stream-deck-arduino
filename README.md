@@ -115,7 +115,7 @@ The use of breadboards facilitates quick reconfigurations and testing.
 **Modifiability**: 
 New functions can be assigned to buttons through simple firmware updates on the Arduino.
 
-
+---
 
 # Bill of Material
 
@@ -126,7 +126,9 @@ New functions can be assigned to buttons through simple firmware updates on the 
 | 3  | Buttons                  | 5      | [[link](https://components101.com/switches/push-button)]      |
 | 4  | Potentiometer            | 1      | N/A       |
 
-### Block diagram
+---
+
+# Block diagram
 ![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
 
 ---
