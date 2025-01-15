@@ -36,7 +36,9 @@ The project is divided into hardware and software modules that work together to 
    - Each button is covered by a display that shows a representative image. The display is mounted in a 3D-printed enclosure that positions it above the button. Pressing the button sends a command to the Arduino to execute the specified function.  
 
 4. **Electrical Connections**  
-   - Wires for power and communication between components.  
+   - Wires for power and communication between components.
+  
+![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
 
 ### Interaction Between Modules  
 - When a button is pressed, the signal is sent to the Arduino, which recognizes the command, triggers the associated function (e.g., opening an application on the PC), and updates the display if necessary.  
@@ -126,11 +128,6 @@ New functions can be assigned to buttons through simple firmware updates on the 
 | 2  | OLED display 0.96        | 6      | [[link](https://www.mouser.com/datasheet/2/1398/Soldered_333099-3395096.pdf?srsltid=AfmBOoqfmm8QoUOllGy6ovOIXSHeqZtmY5EUTcmRMYY_mUVvcQQgWZ8b)] |
 | 3  | Buttons                  | 5      | [[link](https://components101.com/switches/push-button)]      |
 | 4  | Potentiometer            | 1      | N/A       |
-
----
-
-# Block diagram
-![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
 
 ---
 
