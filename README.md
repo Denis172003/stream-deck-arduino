@@ -1,9 +1,6 @@
 # Stream Deck with Arduino Uno
 
 ## Introduction
-
-**Project Name**: Stream Deck
-
 This project is based on the development of a custom stream deck using two breadboards, 6 displays with 3D-printed enclosures, 6 buttons for each display, a potentiometer, a multiplexor and an Arduino Uno.  
 
 ### What does it do?  
