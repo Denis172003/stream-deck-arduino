@@ -37,8 +37,8 @@ The project is divided into hardware and software modules that work together to 
 
 4. **Electrical Connections**  
    - Wires for power and communication between components.
-  
-![image](https://github.com/user-attachments/assets/f14e48fe-eef5-4293-a3b2-4a7a3a3dc538)
+     
+![image](https://github.com/user-attachments/assets/dbe18a5f-9733-4524-9a01-ee1d6a1a4ce7)
 
 ### Interaction Between Modules  
 - When a button is pressed, the signal is sent to the Arduino, which recognizes the command, triggers the associated function (e.g., opening an application on the PC), and updates the display if necessary.  
