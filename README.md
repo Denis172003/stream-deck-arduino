@@ -3,8 +3,7 @@
 ## Introduction
 This project is based on the development of a custom stream deck using two breadboards, 6 displays with 3D-printed enclosures, 6 buttons for each display, a potentiometer, a multiplexor and an Arduino Uno.  
 
-![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
-
+![stream-deck-arduino](https://github.com/user-attachments/assets/e2eec8bd-83e1-48e8-b336-7503c0d497f7)
 
 ### What does it do?  
 The device allows the user to quickly interact with various applications or functions by pressing buttons. Each display, mounted on a button, shows a representative image for the assigned function. Pressing it opens the corresponding application or executes the configured command (for example, a button with a Google Meet image opens the corresponding application).  
@@ -225,9 +224,7 @@ The project strikes a balance between affordability, functionality, and ease of 
 
 https://wokwi.com/projects/416206453525866497
 
-![stream-deck-arduino](https://github.com/user-attachments/assets/e2eec8bd-83e1-48e8-b336-7503c0d497f7)
-
-
+![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
 
 https://github.com/user-attachments/assets/20e77c98-b352-4aff-852b-f2bc883c0401
 
