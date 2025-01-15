@@ -80,6 +80,8 @@ Used to interconnect components without soldering. This setup allows for easy te
 **Electrical Connections**: 
 Standard jumper wires are used to establish communication and power connections between components.
 
+---
+
 ### 2. Interfaces and Communication
 
 **Button-to-Microcontroller (Input)**:  
@@ -96,6 +98,8 @@ The potentiometer is connected to an analog input pin on the Arduino. It provide
 
 **Microcontroller-to-Computer**:  
 The Arduino communicates with the computer via USB. It sends volume control or button press signals to the computer, which are mapped to corresponding actions through software.  
+
+---
 
 ### 3. Power Supply and Energy Consumption
 
@@ -119,6 +123,8 @@ Assuming the use of 6 OLED displays, the total power consumption is estimated as
 
 Given these values, a USB power source providing 500mA is sufficient to power the system.
 
+---
+
 ### 4. Processing and Computation
 
 **Input Handling**: 
@@ -129,6 +135,8 @@ When a button press is detected, the Arduino determines which button was pressed
 
 **Display Update**: 
 The I2C communication is used to send instructions to the OLED displays, updating their content. This update may involve clearing the screen and redrawing a new icon or message.
+
+---
 
 ### 5. System Expansion
 
