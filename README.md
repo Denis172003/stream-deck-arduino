@@ -17,10 +17,8 @@ I wanted an alternative solution to commercial stream decks that would be more a
 ### Why is it useful?  
 This project automates various processes and increases user efficiency, allowing quick access to different functions. It is easy to use, convenient, and time-saving, making interaction with the computer faster and more intuitive. By creating this project, I have learned more about electronics, programming, and 3D design.  
 
----
-
 <details>
-   <summary><h3>General Description</h3></summary>
+   <summary><h1>General Description</h1></summary>
 
 The project is divided into hardware and software modules that work together to achieve the desired functionality.  
 
@@ -53,7 +51,6 @@ The project is divided into hardware and software modules that work together to 
 
 This modular structure allows for the addition of extra buttons and functions.  
 </details>
----
 
 ## Detailed Description of Hardware Functionality
 
