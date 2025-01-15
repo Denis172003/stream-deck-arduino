@@ -19,7 +19,8 @@ This project automates various processes and increases user efficiency, allowing
 
 ---
 
-## General Description
+<details>
+   <summary><h3>General Description</h3></summary>
 
 The project is divided into hardware and software modules that work together to achieve the desired functionality.  
 
@@ -51,7 +52,7 @@ The project is divided into hardware and software modules that work together to 
 - When a button is pressed, the signal is sent to the Arduino, which recognizes the command, triggers the associated function (e.g., opening an application on the PC), and updates the display if necessary.  
 
 This modular structure allows for the addition of extra buttons and functions.  
-
+</details>
 ---
 
 ## Detailed Description of Hardware Functionality
