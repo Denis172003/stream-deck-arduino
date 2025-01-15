@@ -82,11 +82,20 @@ Standard jumper wires are used to establish communication and power connections 
 
 ### 2. Interfaces and Communication
 
-**Button-to-Microcontroller Interface**: 
-Each button is connected to a digital input pin on the Arduino. The press of a button changes the signal state from HIGH to LOW, triggering an interrupt or a polling mechanism in the Arduino firmware.
+**Button-to-Microcontroller (Input)**:  
+Each button is connected to a digital input pin on the Arduino. The press of a button changes the signal state from HIGH to LOW, triggering an interrupt or a polling mechanism in the Arduino firmware.  
 
-**Display-to-Microcontroller Interface**: 
-The OLED displays communicate with the Arduino through the I2C protocol. The Arduino acts as the master, while the displays function as slaves. Each display has a unique address to prevent conflicts.
+**Multiplexer-to-Display**:  
+The multiplexer (TCA9548A) allows the Arduino to control multiple displays by selecting one at a time. It is connected via I2C and switches between the connected OLED displays, enabling communication with a specific display.  
+
+**Microcontroller-to-Multiplexer**:  
+The Arduino communicates with the multiplexer through I2C. It sends commands to enable specific channels on the multiplexer, allowing the communication with the corresponding OLED display.  
+
+**Potentiometer-to-Microcontroller (Input)**:  
+The potentiometer is connected to an analog input pin on the Arduino. It provides a variable voltage, which the Arduino reads to adjust the computer’s volume.  
+
+**Microcontroller-to-Computer**:  
+The Arduino communicates with the computer via USB. It sends volume control or button press signals to the computer, which are mapped to corresponding actions through software.  
 
 ### 3. Power Supply and Energy Consumption
 
@@ -96,7 +105,7 @@ The system can be powered via USB (5V) or through an external power supply (7-12
 **Energy Consumption**:
 - **Arduino UNO**: Consumes approximately 50mA during standard operation.
 - **OLED Displays**: Each display consumes approximately 20-30mA.
-- **Buttons**: Minimal power consumption as they act as simple switches with negligible current draw.
+- **Buttons and Potentiometer**: Minimal power consumption as they act as simple switches with negligible current draw.
 
 **Total Consumption**: 
 Assuming the use of 6 OLED displays, the total power consumption is estimated as:
@@ -140,7 +149,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 |----|--------------------------|----------|-----------|
 | 1  | Arduino UNO              | 1        | [[link](https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf)]|
 | 2  | OLED display 0.96        | 6      | [[link](https://www.mouser.com/datasheet/2/1398/Soldered_333099-3395096.pdf?srsltid=AfmBOoqfmm8QoUOllGy6ovOIXSHeqZtmY5EUTcmRMYY_mUVvcQQgWZ8b)] |
-| 3  | Buttons                  | 5      | [[link](https://components101.com/switches/push-button)]      |
+| 3  | Buttons                  | 6      | [[link](https://components101.com/switches/push-button)]      |
 | 4  | Potentiometer            | 1      | N/A       |
 | 5  | Multiplexor              | 1      | [[link](https://www.ti.com/lit/ds/symlink/tca9548a.pdf)]      |
 
