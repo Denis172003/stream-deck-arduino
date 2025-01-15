@@ -33,9 +33,17 @@ The project is divided into hardware and software modules that work together to 
    - Support for connecting hardware components.  
 
 3. **Buttons with displays mounted in 3D-printed enclosures**  
-   - Each button is covered by a display that shows a representative image. The display is mounted in a 3D-printed enclosure that positions it above the button. Pressing the button sends a command to the Arduino to execute the specified function.  
+   - Each button is covered by a display that shows a representative image. The display is mounted in a 3D-printed enclosure that positions it above the button. Pressing the button sends a command to the Arduino to execute the specified function.
 
-4. **Electrical Connections**  
+4. **Multiplexer (TCA9548A)**  
+   - Expands the number of I2C devices that can be connected.  
+   - Allows the Arduino to control multiple displays by enabling communication with one display at a time.  
+
+5. **Potentiometer**  
+   - Adjusts the computer’s volume.  
+   - Provides an analog input to the Arduino, which then translates it into volume control commands for the computer.    
+
+6. **Electrical Connections**  
    - Wires for power and communication between components.
      
 ![image](https://github.com/user-attachments/assets/c41dbc2f-dc8c-4e62-a33d-29b5267dd0df)
@@ -55,10 +63,16 @@ This modular structure allows for the addition of extra buttons and functions.
 Arduino UNO serves as the central processing unit, managing inputs, outputs, and communication between connected components.
 
 **Buttons with Displays**: 
-The system includes 4 to 6 buttons, each paired with a 0.96-inch OLED display. Each display is housed in a 3D-printed case, which aligns it with the button. When pressed, the button sends a signal to the Arduino, which processes the action and updates the display, if required.
+The system includes 6 buttons, each paired with a 0.96-inch OLED display. Each display is housed in a 3D-printed case, which aligns it with the button. When pressed, the button sends a signal to the Arduino, which processes the action and updates the display, if required.
 
 **OLED Displays**: 
-4 to 6 0.96-inch OLED displays are connected to the Arduino using the I2C communication protocol. Each display shows a unique symbol or text that represents the associated button’s function.
+6 0.96-inch OLED displays are connected to the Arduino using the I2C communication protocol. Each display shows a unique symbol or text that represents the associated button’s function.
+
+**Multiplexer (TCA9548A)**:  
+Since the I2C protocol can only handle a limited number of devices, a multiplexer is used to expand the number of connected OLED displays. It allows the Arduino to control multiple displays by enabling communication with one display at a time.  
+
+**Potentiometer**:  
+A potentiometer is included to control the computer’s volume. It provides an analog input to the Arduino, which interprets it and sends corresponding volume control commands to the computer.  
 
 **Breadboards**: 
 Used to interconnect components without soldering. This setup allows for easy testing and adjustments.
