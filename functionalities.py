@@ -29,7 +29,7 @@ def adjust_volume(pot_value):
     """Adjust system volume based on potentiometer value."""
     global current_volume
     # Map potentiometer value to a percentage (0-100)
-    volume = int((pot_value / 2046) * 1000)
+    volume = int((pot_value / 2046) * 100)
     
     # Log the potentiometer value and the mapped volume
     print(f"Potentiometer value: {pot_value}, Mapped volume: {volume}")
