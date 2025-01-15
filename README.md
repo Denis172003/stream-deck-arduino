@@ -3,7 +3,7 @@
 ## Introduction
 This project is based on the development of a custom stream deck using two breadboards, 6 displays with 3D-printed enclosures, 6 buttons for each display, a potentiometer, a multiplexor and an Arduino Uno.  
 
-![image](https://github.com/user-attachments/assets/ff0376e1-1262-4869-967c-2458a5e31a67)
+![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
 
 
 ### What does it do?  
@@ -224,8 +224,6 @@ The project strikes a balance between affordability, functionality, and ease of 
 <img width="900" alt="Screenshot 2024-12-03 at 02 10 00" src="https://github.com/user-attachments/assets/fef912ea-c0c5-4249-b9b1-13b8d5b6e6f2">
 
 https://wokwi.com/projects/416206453525866497
-
-![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
 
 ![stream-deck-arduino](https://github.com/user-attachments/assets/e2eec8bd-83e1-48e8-b336-7503c0d497f7)
 
