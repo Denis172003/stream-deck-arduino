@@ -189,7 +189,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ![image-removebg-preview (2)](https://github.com/user-attachments/assets/6fdd27ff-1ae4-4d2a-b66f-d3b174c55f5d)
 
 #### 5. Multiplexer (TCA9548A)  
-- **Pins used:** SDA, SCL, and control pins (usually 0-7)  
+- **Pins used:** SDA, SCL, and control pins (0-5)  
 - **Reason:** The multiplexer allows the Arduino to control multiple I2C devices (displays) by switching between them. SDA and SCL are used for I2C communication with the Arduino. The control pins select which display is active at a given time.
 ![image-removebg-preview (3)](https://github.com/user-attachments/assets/39b9b877-8e57-4cac-a69a-7a280cc22359)
 
