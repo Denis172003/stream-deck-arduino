@@ -52,7 +52,8 @@ The project is divided into hardware and software modules that work together to 
 This modular structure allows for the addition of extra buttons and functions.  
 </details>
 
-## Detailed Description of Hardware Functionality
+<details>
+   <summary><h1>Detailed Description of Hardware Functionality</h1></summary>
 
 ### 1. Modules and Components
 
@@ -147,6 +148,7 @@ The use of breadboards facilitates quick reconfigurations and testing.
 New functions can be assigned to buttons through simple firmware updates on the Arduino.
 
 ---
+</details>
 
 # Bill of Material
 
