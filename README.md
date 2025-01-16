@@ -18,7 +18,7 @@ I wanted an alternative solution to commercial stream decks that would be more a
 This project automates various processes and increases user efficiency, allowing quick access to different functions. It is easy to use, convenient, and time-saving, making interaction with the computer faster and more intuitive. By creating this project, I have learned more about electronics, programming, and 3D design.  
 
 <details>
-   <summary><h1>General Description</h1></summary>
+   <summary><h2>General Description</h2></summary>
 
 The project is divided into hardware and software modules that work together to achieve the desired functionality.  
 
@@ -53,7 +53,7 @@ This modular structure allows for the addition of extra buttons and functions.
 </details>
 
 <details>
-   <summary><h1>Detailed Description of Hardware Functionality</h1></summary>
+   <summary><h2>Detailed Description of Hardware Functionality</h2></summary>
 
 ### 1. Modules and Components
 
@@ -150,7 +150,7 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ---
 </details>
 
-# Bill of Material
+## Bill of Material
 
 | #  | Name                     | Quantity | Datasheet |
 |----|--------------------------|----------|-----------|
