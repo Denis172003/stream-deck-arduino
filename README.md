@@ -194,21 +194,21 @@ New functions can be assigned to buttons through simple firmware updates on the 
 ![image-removebg-preview (3)](https://github.com/user-attachments/assets/39b9b877-8e57-4cac-a69a-7a280cc22359)
 
 ---
-### Choice of Libraries 📚:
+## Choice of Libraries 📚:
 
-#### Arduino Libraries:
+### Arduino Libraries:
 
 - **Wire.h**: Essential for I2C communication between the Arduino, multiplexer, and OLED displays.
 - **Adafruit_GFX.h & Adafruit_SSD1306.h**: Provide easy-to-use functions for rendering graphics and text on OLED displays.
 
-#### Python Libraries:
+### Python Libraries:
 
 - **os**: Manages application launches directly from the system.
 - **subprocess**: Executes macOS-specific commands like adjusting volume.
 - **time**: Ensures smooth synchronization between components.
 
 ---
-**Novelty of the Project**  
+## Novelty of the Project:
 
 This project offers a budget-friendly, custom stream deck with real-time visual feedback on multiple OLED displays. Its key features include:  
 
