@@ -226,6 +226,9 @@ https://wokwi.com/projects/416206453525866497
 
 ![image](https://github.com/user-attachments/assets/9aeaf20e-022d-4963-aba6-611689713359)
 
+![image](https://github.com/user-attachments/assets/c24535a8-f11a-4d13-b5e8-8487afde314a)
+
+
 ## Video
 
 https://github.com/user-attachments/assets/20e77c98-b352-4aff-852b-f2bc883c0401
